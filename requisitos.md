@@ -1,7 +1,8 @@
 # Cheveamento Automático
 
 ## Objetivos
-
+crie um site que faça um chaveamento automatico esportivos, onde o administrador vai ter acesso as chaves posteriormente, e poder acrescentar o placar das partidas. use o site como referencia. https://bracketmaker.app/pt/
+Ajudar na organização, deixar o campeonato mais justo, ou seja, sem a manipulação do placar ou dos jogos.
 
 ### Stack Tecnlógico
 - Backend: PHP estruturado com sessões nativas
@@ -12,6 +13,15 @@
 Tratar senhas de usuários com hash bcript
 O sistema deve ter uma página de históricos e manter sempre os logs de qualquer alteração feita por 
 qualquer usuário, para auditorias futuras.
+- inserir informações
+- validar informações
+- gerar chaveamento
+- exibir resultado
+- permitir ajustes
+- finalizar
+  Sistema digital para organizar competições, define confrontos automáticamente, organiza a ordem das partidas, indica os classificados para a próxima fase, mostra o caminho até a final, registra o resultado e posições.
+ 
+
 
 ##### Regras Globais
 - Use sempre PDO para conexão e queries no MySQL para evitar SQL Injections
