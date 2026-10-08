@@ -1,4 +1,4 @@
-# Cheveamento Automático
+# chaveamento Automático
 
 ## Objetivos
 crie um site que faça um chaveamento automatico esportivos, onde o administrador vai ter acesso as chaves posteriormente, e poder acrescentar o placar das partidas. use o site como referencia. https://bracketmaker.app/pt/
