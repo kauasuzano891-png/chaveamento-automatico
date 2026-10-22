@@ -1,0 +1,75 @@
+/* Estilos customizados complementares ao Tailwind CSS */
+
+/* Bracket Container com scroll suave e visual esportivo */
+.bracket-wrapper {
+    scrollbar-width: thin;
+    scrollbar-color: #334155 #0f172a;
+}
+
+.bracket-wrapper::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+
+.bracket-wrapper::-webkit-scrollbar-track {
+    background: #0f172a;
+    border-radius: 9999px;
+}
+
+.bracket-wrapper::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 9999px;
+}
+
+.bracket-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #475569;
+}
+
+/* Conectores de chaveamento estilo BracketMaker */
+.bracket-connector-r {
+    position: relative;
+}
+
+.bracket-connector-r::after {
+    content: '';
+    position: absolute;
+    right: -24px;
+    top: 50%;
+    width: 24px;
+    height: 2px;
+    background-color: #334155;
+    transform: translateY(-50%);
+}
+
+/* Card de partida interativo */
+.match-card {
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.match-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos para Impressão limpa do chaveamento */
+@media print {
+    header, nav, footer, #toast-container, .no-print {
+        display: none !important;
+    }
+
+    body {
+        background: #ffffff !important;
+        color: #000000 !important;
+    }
+
+    .bracket-wrapper {
+        overflow: visible !important;
+    }
+
+    .match-card {
+        border: 1px solid #cbd5e1 !important;
+        background: #ffffff !important;
+        color: #000000 !important;
+        box-shadow: none !important;
+    }
+}

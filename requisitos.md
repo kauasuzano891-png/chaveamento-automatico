@@ -1,4 +1,4 @@
-# chaveamento Automático
+﻿# chaveamento Automático
 
 ## Objetivos
 crie um site que faça um chaveamento automatico esportivos, onde o administrador vai ter acesso as chaves posteriormente, e poder acrescentar o placar das partidas. use o site como referencia. https://bracketmaker.app/pt/
@@ -30,3 +30,4 @@ qualquer usuário, para auditorias futuras.
  - Estilize as telas em Tailwind de forma responsiva priorizando o MobileFrist.
  - Retorne sempre as mensagens de erros de forma claras na interface para o usuário (TOAST)
  - sempre trate as mensagens de caixa de mensagens nativas do navegador em um MODAL
+
